@@ -7,6 +7,7 @@ div#wrapper{
 	text-align: left;
 	width: 100%;
 	line-height: 1.8;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*-------------------------------------*/
@@ -15,22 +16,23 @@ div#wrapper{
 
 
 div#bgHeader{
-	background: url(../img/bg_gnavi.gif) repeat 0 0;
+	background-color: #000;
 }
 
 div#header{
-	width: 960px;
+	width: 1040px;
 	margin: 0 auto;
 	text-align: left;
 }
 
 	div#header h1{
-		font-size: 20px;
+		font-size: 48px;
 		float: left;
 		width: 300px;
 		color: #fff;
 		letter-spacing: 0.05em;
-		padding: 26px 0 0 23px;
+		padding: 0px 0 0 0px;
+
 	}
 
 /*-------------------------------------*/
@@ -96,18 +98,18 @@ div#bgColor{
 div#mainImgBox{
 	margin: 0 auto;
 	text-align: left;
-	width: 960px;
-	background: url(../img/itabashi.jpg) no-repeat top right;
-	min-height:381px;
+	width: 1040px;
+	background: url(../img/biyousitu.jpg) no-repeat top right;
+	min-height: 250px;
 	height: auto !important;
-	height: 381px;
+	height: 250px;
 }
 
 div#mainImgBox div#mainMessageBox{
 	width: 277px;
-	min-height:381px;
+	min-height:250px;
 	height: auto !important;
-	height: 381px;
+	height: 250px;
 	background: #fff;
 	border-left: 1px solid #dedede;
 	border-right: 1px solid #efefef;
@@ -115,9 +117,9 @@ div#mainImgBox div#mainMessageBox{
 
 	div#mainImgBox div#mainMessageBox strong{
 		font-weight: bold;
-		font-size: 17px;
+		font-size: 20px;
 		display: block;
-		padding: 90px 20px 10px;
+		padding: 10px 20px 10px;
 	}
 	div#mainImgBox div#mainMessageBox span{
 		padding: 0 20px;
@@ -126,114 +128,104 @@ div#mainImgBox div#mainMessageBox{
 	}
 
 div#mainContents{
-	width: 960px;
+	width: 1040px;
 	margin: 0 auto;
 	text-align: left;
-	margin-top: 60px;
+	margin-top: 20px;
+	font-size: 14px;
 }
 
 	div#mainContents div.topicsBox{
-		width: 295px;
+		width: 560px;
 		float: left;
 		margin-left: 33px;
 		margin-bottom: 75px;
 	}
 
 	div#mainContents div.firstItem{
+		width: 440px;
 		margin-left: 0;
 	}
 
+	/*メニュー タイトル*/
 	div#mainContents div.topicsBox strong{
-		margin-bottom: 15px;
+		margin-bottom: 10px;
 		font-weight: bold;
 		display: block;
-		font-size: 14px;
+		font-size: 20px;
 	}
 
-	div#mainContents div.topicsBox span{
+	/*メニュー 説明*/
+	div.topicsBox span{
 		line-height: 1.8;
 		display: block;
 		text-align: justify;
 		margin-bottom: 8px;
 	}
 
-div#newTopics{
-	float: left;
+/*-------------------------------------*/
+/* スタッフ */
+/*-------------------------------------*/
+div#staff {
+
 }
 
-	div#newTopics strong{
-		font-weight: bold;
-		font-size: 13px;
-		margin-bottom: 8px;
-		display: block;
-		font-size: 14px;
-	}
-
-	div#newTopics dl{
-		width: 295px;
-	}
-
-	div#newTopics dl dt,
-	div#newTopics dl dd{
-		padding: 10px 0;
-		border-bottom: 1px solid #ddd;
-	}
-
-	div#newTopics dl dt{
-		float:left;
-		width:75px;
-		clear:both;
-		background: url(../img/bg_boder.gif) repeat 0 0 ;
-	}
-
-	div#newTopics dl dd{
-		width:195px;
-		margin-left:75px;
-		padding-left: 20px;
-	}
-
-div#outlineBox{
-	margin-left: 33px;
-	float: left;
-}
-
-	div#outlineBox strong{
-		font-weight: bold;
-		font-size: 13px;
-		margin-bottom: 8px;
-		display: block;
-		font-size: 14px;
-	}
-
-	div#outlineBox dl{
-		width: 295px;
-	}
-
-	div#outlineBox dl dt,
-	div#outlineBox dl dd{
-		padding: 10px 0;
-	}
-
-	div#outlineBox dl dt{
-		float:left;
-		width:65px;
-		clear:both;
-		font-weight: bold;
-	}
-
-	div#outlineBox dl dd{
-		width:205px;
-		margin-left:65px;
-		padding-left: 20px;
-		color: #666;
-	}
-
-div#bannerBox{
-	float: right;
-	width: 250px;
-}
-
-	div#bannerBox ul{}
-	div#bannerBox ul li{
+	div#staff li {
 		margin-bottom: 15px;
+	}
+
+	div#staff img {
+		width: 80px;
+		border-radius: 300px;
+		-webkit-border-radius: 300px;
+		-moz-border-radius: 300px;
+	}
+
+	div#staff dt {
+		float: left;
+		padding-right: 20px;
+	}
+
+	div#staff dd {
+		width: 380px;
+	}
+
+	div#staff dd p{
+		font-weight: bold;
+		font-size: 18px;
+	}
+/*-------------------------------------*/
+/* メニュー */
+/*-------------------------------------*/
+div#menu {
+
+}
+	div#menu ul {
+		display: table;
+	}
+
+	div#menu ul li {
+		width: 250px;
+		display: table-cell;
+	}
+	div#menu ul li.firstItem {
+		width: 370px;
+	}
+
+	div#menu ul li p {
+		padding-top: 10px;
+		font-size: 18px;
+	}
+
+	div#menu ul li p span {
+		font-size: 12px;
+	}
+
+	div#menu ul li p.firstItem {
+		padding-top: 0px;
+	}
+
+	div#menu dl dt {
+		float: left;
+		width: 140px;
 	}
