@@ -62,7 +62,7 @@
 
 /*//clearFix Coponents//*/
 .clear {clear:both;}
-.clearfix{ display:block;} 
+.clearfix{ display:block;}
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -71,9 +71,9 @@
      clear: both;
      height: 0;
  }
- 
+
 .clearfix:after {
-	content: url(pixel.gif);
+	content: url(../img/pixel.gif);
 	display: block;
 	clear: both;
 	height: 0;

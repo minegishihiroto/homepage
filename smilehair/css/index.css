@@ -1,5 +1,93 @@
 @charset "utf-8";
 
+/*-------------------------------------*/
+
+div#wrapper{
+	margin: 0 auto;
+	text-align: left;
+	width: 100%;
+	line-height: 1.8;
+}
+
+/*-------------------------------------*/
+/* ヘッダー */
+/*-------------------------------------*/
+
+
+div#bgHeader{
+	background: url(../img/bg_gnavi.gif) repeat 0 0;
+}
+
+div#header{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+	div#header h1{
+		font-size: 20px;
+		float: left;
+		width: 300px;
+		color: #fff;
+		letter-spacing: 0.05em;
+		padding: 26px 0 0 23px;
+	}
+
+/*-------------------------------------*/
+/* グローバルナビゲーション */
+/*-------------------------------------*/
+	div#header ul#gNavi{
+		float: right;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	ul#gNavi li{
+		display: block;
+		float: right;
+		border-left: 1px solid #666;
+	}
+
+	ul#gNavi li.firstItem{
+		border-right: 1px solid #666;
+	}
+	ul#gNavi li img{
+		vertical-align: bottom;
+	}
+
+	ul#gNavi li.lastItem{
+		margin-left: 0;
+	}
+
+	div#header ul#gNavi li a{
+		font-size: 13px;
+		color: #fff;
+		text-decoration: none;
+		display: block;
+		padding: 30px 15px;
+	}
+
+	div#header ul#gNavi li a:hover{
+		background: #333;
+	}
+
+/*-------------------------------------*/
+/* フッター */
+/*-------------------------------------*/
+
+div#footer{
+	background: #000;
+	margin-top: 45px;
+	text-align: center;
+}
+
+	div#footer p#copyright{
+		text-align: center;
+		padding: 10px;
+		color: #fff;
+		font-family:"lucida grande", tahoma, verdana, arial, sans-serif!important;
+	}
+
 div#bgColor{
 	background: #F8F7F5;
 	border: 1px solid #dedede;
@@ -9,7 +97,7 @@ div#mainImgBox{
 	margin: 0 auto;
 	text-align: left;
 	width: 960px;
-	background: url(../../index/img/itabashi.jpg) no-repeat top right;
+	background: url(../img/itabashi.jpg) no-repeat top right;
 	min-height:381px;
 	height: auto !important;
 	height: 381px;
