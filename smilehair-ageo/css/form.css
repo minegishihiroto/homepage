@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/*************************************************
+【忍者式メールフォーム自作CSS】
+自作CSSを使用するには、HTMLとCSSの知識が必須です。
+HTMLやCSSについては参考文献などを参照してください。
+*************************************************/
+
+/*メールフォーム全体を囲っているタグのid*/
+#smilehair-form_top {
+	width: 100%;
+}
+
+/*メールフォームのパーツや送信ボタンを囲っているタグのclass（タイトル、説明文以外）*/
+#smilehair-form_top .main {
+
+}
+
+/*メールフォームのタイトルを囲っているタグのclass*/
+#smilehair-form_top .title{
+
+}
+
+/*メールフォームの説明文を囲っているタグのclass*/
+#smilehair-form_top .explain {
+
+}
+
+/*『name』パーツの表示名と入力項目を囲っているタグのclass*/
+#smilehair-form_top .name_top {
+	width: 200px;
+	float: left;
+	clear: both;
+}
+
+/*『name』パーツの表示名を囲っているタグのclass（[ 名前 ]の部分）*/
+#smilehair-form_top .name_left{
+
+}
+
+/*『name』パーツの入力項目を囲っているタグのclass*/
+#smilehair-form_top .name_right {
+
+}
+
+/*『name』パーツの入力項目のclass（inputなどの部分）*/
+#smilehair-form_top .name_parts {
+
+}
+
+/*『mail』パーツの表示名と入力項目を囲っているタグのclass*/
+#smilehair-form_top .mail_top {
+	width: 200px;
+	float: left;
+	clear: both;
+}
+
+/*『mail』パーツの表示名を囲っているタグのclass（[ メールアドレス ]の部分）*/
+#smilehair-form_top .mail_left{
+
+}
+
+/*『mail』パーツの入力項目を囲っているタグのclass*/
+#smilehair-form_top .mail_right {
+
+}
+
+/*『mail』パーツの入力項目のclass（inputなどの部分）*/
+#smilehair-form_top .mail_parts {
+
+}
+
+/*『tel』パーツの表示名と入力項目を囲っているタグのclass*/
+#smilehair-form_top .tel_top {
+	width: 200px;
+	float: left;
+	clear: both;
+}
+
+/*『tel』パーツの表示名を囲っているタグのclass（[ 電話番号 ]の部分）*/
+#smilehair-form_top .tel_left{
+
+}
+
+/*『tel』パーツの入力項目を囲っているタグのclass*/
+#smilehair-form_top .tel_right {
+
+}
+
+/*『tel』パーツの入力項目のclass（inputなどの部分）*/
+#smilehair-form_top .tel_parts {
+
+}
+
+/*『title』パーツの表示名と入力項目を囲っているタグのclass*/
+#smilehair-form_top .title_top {
+	width: 200px;
+	float: left;
+	clear: both;
+}
+
+/*『title』パーツの表示名を囲っているタグのclass（[ 件名 ]の部分）*/
+#smilehair-form_top .title_left{
+
+}
+
+/*『title』パーツの入力項目を囲っているタグのclass*/
+#smilehair-form_top .title_right {
+
+}
+
+/*『title』パーツの入力項目のclass（inputなどの部分）*/
+#smilehair-form_top .title_parts {
+
+}
+
+/*『textarea』パーツの表示名と入力項目を囲っているタグのclass*/
+#smilehair-form_top .textarea_top {
+
+}
+
+/*『textarea』パーツの表示名を囲っているタグのclass（[ 本文（大） ]の部分）*/
+#smilehair-form_top .textarea_left{
+
+}
+
+/*『textarea』パーツの入力項目を囲っているタグのclass*/
+#smilehair-form_top .textarea_right {
+
+}
+
+/*『textarea』パーツの入力項目のclass（inputなどの部分）*/
+#smilehair-form_top .textarea_parts {
+	width: 400px;
+	height: 200px;
+}
+
+/*メールフォームの送信ボタンを囲っているタグのclass*/
+#smilehair-form_top .submit {
+
+}
+
+/*メールフォームの送信ボタンのclass*/
+#smilehair-form_top .submit_button {
+
+}
+
+/*エラーメッセージを囲っているタグのclass*/
+#smilehair-form_top .error {
+
+}
+
+/*エラーメッセージのリトライボタンを囲っているタグのclass*/
+#smilehair-form_top .error_submit {
+
+}
+
+/*エラーメッセージのリトライボタンのclass*/
+#smilehair-form_top .error_submit_button {
+
+}
+
+/*送信完了メッセージを囲っているタグのclass*/
+#smilehair-form_top .result {
+
+}
+
+/*送信完了メッセージの戻るボタンを囲っているタグのclass*/
+#smilehair-form_top .result_submit {
+
+}
+
+/*送信完了メッセージの戻るボタンのclass*/
+#smilehair-form_top .result_submit_button {
+
+}
+
+#shinobi_jp_text {
+	display: none;
+}
