@@ -8,6 +8,7 @@ div#wrapper{
 	width: 100%;
 	line-height: 1.8;
 	font-family: 'Montserrat', sans-serif;
+	clear: both;
 }
 
 /*-------------------------------------*/
@@ -20,7 +21,8 @@ div#bgHeader{
 }
 
 div#header{
-	width: 1040px;
+	width: 100%;
+	min-width: 1280px;
 	margin: 0 auto;
 	text-align: left;
 }
@@ -62,7 +64,7 @@ div#header{
 	}
 
 	div#header ul#gNavi li a{
-		font-size: 13px;
+		font-size: 15px;
 		color: #fff;
 		text-decoration: none;
 		display: block;
@@ -98,7 +100,7 @@ div#bgColor{
 div#mainImgBox{
 	margin: 0 auto;
 	text-align: left;
-	width: 1040px;
+	width: 100%;
 	background: url(../img/biyousitu.jpg) no-repeat top right;
 	min-height: 250px;
 	height: auto !important;
@@ -106,7 +108,7 @@ div#mainImgBox{
 }
 
 div#mainImgBox div#mainMessageBox{
-	width: 277px;
+	width: 372px;
 	min-height:250px;
 	height: auto !important;
 	height: 250px;
@@ -128,7 +130,7 @@ div#mainImgBox div#mainMessageBox{
 	}
 
 div#mainContents{
-	width: 1040px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: left;
 	margin-top: 20px;
@@ -136,15 +138,17 @@ div#mainContents{
 }
 
 	div#mainContents div.topicsBox{
-		width: 560px;
+		width: 55%;
 		float: left;
-		margin-left: 33px;
+		margin-left: 3%;
 		margin-bottom: 75px;
+		min-width: 450px;
 	}
 
 	div#mainContents div.firstItem{
-		width: 440px;
-		margin-left: 0;
+		width: 35%;
+		margin-left: 3%;
+		min-width: 300px;
 	}
 
 	/*メニュー タイトル*/
@@ -158,7 +162,6 @@ div#mainContents{
 	/*メニュー 説明*/
 	div.topicsBox span{
 		line-height: 1.8;
-		display: block;
 		text-align: justify;
 		margin-bottom: 8px;
 	}
@@ -171,11 +174,11 @@ div#staff {
 }
 
 	div#staff li {
-		margin-bottom: 15px;
+		margin-bottom: 20px;
 	}
 
 	div#staff img {
-		width: 80px;
+		width: 100px;
 		border-radius: 300px;
 		-webkit-border-radius: 300px;
 		-moz-border-radius: 300px;
@@ -187,12 +190,13 @@ div#staff {
 	}
 
 	div#staff dd {
-		width: 380px;
+		width: 100%;
+		min-width: 300px;
 	}
 
 	div#staff dd p{
 		font-weight: bold;
-		font-size: 18px;
+		font-size: 14px;
 	}
 /*-------------------------------------*/
 /* メニュー */
@@ -205,11 +209,11 @@ div#menu {
 	}
 
 	div#menu ul li {
-		width: 250px;
+		width: 300px;
 		display: table-cell;
 	}
 	div#menu ul li.firstItem {
-		width: 370px;
+		width: 320px;
 	}
 
 	div#menu ul li p {
@@ -227,5 +231,5 @@ div#menu {
 
 	div#menu dl dt {
 		float: left;
-		width: 140px;
+		width: 170px;
 	}
