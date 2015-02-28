@@ -81,8 +81,9 @@ a:active, a:focus{outline:0;}
 }
 
 .logo span{
-	font-size:12px;
+	font-size:20px;
 	font-weight:normal;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 }
 
 #header h1{
