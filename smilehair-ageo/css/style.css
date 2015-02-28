@@ -90,6 +90,7 @@ a:active, a:focus{outline:0;}
 	color:#444;
 }
 
+#header a:hover{color:#d3d3d3;}
 
 /**************************
 /* メイン画像（トップページ+サブページ）
