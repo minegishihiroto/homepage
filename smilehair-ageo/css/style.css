@@ -18,6 +18,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* -------------------------------------------------------------- */
 
 body{
+	height: 100%;
 	color:#555;
 	font:12px verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 	line-height:1.5;
@@ -27,8 +28,9 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-html{background:#d3d3d3;}
-
+html{
+	height:100%;
+}
 
 /* リンク設定
 ------------------------------------------------------------*/
@@ -336,6 +338,21 @@ table.table td{border-left:#d3d3d3 3px double}
 
 #footer .copyright{font-size:11px;}
 
+/* google map */
+.google-maps {
+position: relative;
+padding-bottom: 45%;
+height: 0;
+overflow: hidden;
+}
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
 
 /* PC用 */
 @media only screen and (min-width:960px){
@@ -413,8 +430,25 @@ table.table td{border-left:#d3d3d3 3px double}
 		float: left;
 	}
 
+	h2.about {
+		margin-top: 40px;
+		text-align: center;
+		font-size: 30px;
+		padding-bottom: 30px;
+		font-weight: normal;
+		line-height: 1;
+		letter-spacing: 4px;
+	}
+
+	p.aboutText {
+		text-align: center;
+		font-size: 16px;
+		line-height: 1.8;
+		letter-spacing: 2px;
+	}
+
 	/* サブコンテンツ + フッター グリッド(3カラム) */
-	#sub .grid, #footer .grid{width:298px;}
+	#sub .grid, #footer .grid{width:306px;}
 	#footer .grid{border:0;}
 
 	.staff li:nth-child(2n+0){
@@ -422,6 +456,11 @@ table.table td{border-left:#d3d3d3 3px double}
 	}
 	.staff dt {
 		padding-right: 20px;
+	}
+
+	p.access {
+		font-size: 18px;
+		margin-top: 10px;
 	}
 }
 
@@ -435,9 +474,9 @@ table.table td{border-left:#d3d3d3 3px double}
 
 	.staff img {
 		width: 100px;
-		border-radius: 300px;
+		/*border-radius: 300px;
 		-webkit-border-radius: 300px;
-		-moz-border-radius: 300px;
+		-moz-border-radius: 300px;*/
 	}
 
 	.staff dt {
@@ -501,6 +540,9 @@ table.table td{border-left:#d3d3d3 3px double}
 		background: -o-linear-gradient(top, #d3d3d3 0%, #000 100%);
 		background: -ms-linear-gradient(top, #d3d3d3 0%, #000 100%);
 		background: linear-gradient(top, #d3d3d3 0%, #000 100%);
+
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 14px;
 	}
 
 	nav#mainNav a.menu{
@@ -540,14 +582,12 @@ table.table td{border-left:#d3d3d3 3px double}
 		display: block;
 		padding:15px 10px;
 		text-align:left;
-		border-bottom:1px dashed #fff;
+		border-bottom:1px solid #fff;
 		color:#fff;
 		background:#000;
 	}
 
 	nav#mainNav ul li a span{padding-left:10px;}
-
-	nav#mainNav ul li:first-child a{border-top:1px dashed #fff;}
 
 	nav#mainNav ul li:last-child a{border:0;}
 
@@ -617,6 +657,36 @@ table.table td{border-left:#d3d3d3 3px double}
 	.staff li {
 		clear: both;
 		min-width: 300px;
+	}
+
+	h2.about {
+		margin-top: 15px;
+		font-size: 14px;
+		padding-bottom: 7px;
+		font-weight: bold;
+		line-height: 1.4;
+		letter-spacing: 2px;
+	}
+
+	h2.about span:before {
+		content: "\A";
+		white-space: pre;
+	}
+
+	p.aboutText {
+		font-size: 12px;
+		line-height: 1.2;
+		letter-spacing: 2px;
+	}
+
+	p.access {
+		font-size: 14px;
+		margin-top: 6px;
+	}
+
+	p.access span:before {
+		content: "\A";
+		white-space: pre;
 	}
 }
 

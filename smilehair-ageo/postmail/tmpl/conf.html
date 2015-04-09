@@ -13,6 +13,24 @@
 <script src="../../js/script.js"></script>
 <style type="text/css">
 <!--
+@media only screen and (min-width:960px){
+	html,body{
+	    height: 100%;
+	}
+	div#container{
+	    position: relative;
+	    min-height: 100%;
+	    height: auto !important;
+	    height: 100%;
+	}
+
+	#footer{
+	    position: absolute;
+	    bottom: 0;
+	    width: 100%;
+	    height: 50px;
+	}
+}
 table.form { border:1px solid #7777bb; border-collapse:collapse; margin-top:1em; }
 table.form th,td { text-align:left; border:1px solid #000; padding:8px; font-weight:normal; }
 table.form th { background:#d3d3d3; color:#FFF}
@@ -21,9 +39,9 @@ strong.ttl { text-align:left; border-left:solid 4px #d3d3d3; display:block; padd
 input.button { width:90px; }
 -->
 </style>
-<title>お問い合わせフォーム : 確認画面</title>
 </head>
 <body>
+<div id="container">
 <!-- ヘッダー -->
 <div id="header">
 	<div class="inner">
@@ -41,7 +59,6 @@ input.button { width:90px; }
 			<div class="panel">
 				<ul>
 					<li><a href="/postmail/postmail.html">Contact</a></li>
-					<li><a href="https://www.facebook.com/pages/Smilehair%E3%81%95%E3%81%84%E3%81%9F%E3%81%BE%E6%96%B0%E9%83%BD%E5%BF%83%E5%BA%97/123253594462866?fref=ts" target="parent">Facebook</a></li>
 					<li class="tel"><a href="tel:0488716558">
     					上尾店: <strong>048-871-6558</strong></p>
 						</a>
@@ -60,7 +77,7 @@ input.button { width:90px; }
 			<h3 class="heading">Confirm</h3>
 			<article>
 <blockquote>
-<strong class="ttl">お問い合わせフォーム &gt; 確認画面</strong>
+<strong class="ttl">お問い合わせ 確認画面</strong>
 <ul>
 <li>以下の内容でよろしければ「送信する」ボタンを押して下さい。
 </ul>
@@ -94,14 +111,14 @@ input.button { width:90px; }
 
 			<article class="grid">
       	<!-- ロゴ -->
-				<p class="logo"><a href="index.html">Smilehair<br /><span>Your Company Slogan</span></a></p>
+				<p class="logo"><a href="index.html">Smilehair<br /></a></p>
 				<!-- / ロゴ -->
 			</article>
 
       <article class="grid">
       	<!-- 電話番号+受付時間 -->
 				<p class="tel">電話: <strong>048-871-6558</strong></p>
-				<p>受付時間: 平日 AM 10:00 ～ PM 5:00</p>
+				<p>受付時間: 平日:11:00 ～ 21:00　 土日:9:00 ~ 19:00</p>
 				<!-- / 電話番号+受付時間 -->
 			</article>
 
@@ -115,5 +132,6 @@ input.button { width:90px; }
 	</div>
 </div>
 <!-- / フッター -->
+</div>
 </body>
 </html>

@@ -425,7 +425,7 @@ sub err_check {
 		}
 		# “ü—Í‚È‚µ
 		if ($erflg) {
-			$tmp =~ s/!val!/<span class="msg">$key_name‚Í“ü—Í•K{‚Å‚·.<\/span>/;
+			$tmp =~ s/!val!/<span class="msg">E$key_name‚Í“ü—Í•K{‚Å‚·.<\/span>/;
 
 		# ³í
 		} else {
